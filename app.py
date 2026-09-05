@@ -1,7 +1,7 @@
 from flask import Flask, redirect, render_template, request, session, url_for, flash
 
 app = Flask(__name__)
-app.secret_key = "super-secret-key"
+app.secret_key = "9012345678"
 
 
 @app.route("/", methods=["GET", "POST"])
